@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Windows.h>
 
 struct address {
 	std::string city;
@@ -20,6 +21,8 @@ void address_information(address home) {
 
 int main() {
 	setlocale(LC_ALL, "Russian");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	std::cout << "¬ведите город, улицу, номер дома и квартиры, индекс (после каждого ввода нажмите Enter): " << std::endl;
 	address home;
 
