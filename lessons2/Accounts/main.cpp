@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
   setlocale(LC_ALL, "Russian");
 
   int a_n;
-  char name;
+  std::string name;
   int b;
   person ba;
   int new_balance = 0;
@@ -33,6 +33,6 @@ int main(int argc, char** argv) {
 	std::cin >> b;
 	std::cout << "¬ведите новый баланс: ";
 	std::cin >> new_balance;
-	std::cout << "¬аш счЄт: " << name << " ," << a_n << " ," << new_balance << std::endl;;
+	std::cout << "¬аш счЄт: " << name << ", " << a_n << ", " << new_balance << std::endl;;
 
 }
