@@ -22,40 +22,40 @@ int main() {
 		std::cout << "Введите номер месяца: ";
 		std::cin >> month_number;
 		switch (month_number) {
-		case 1:
-			std::cout << static_cast<char>(months::January);
+		case January:
+			std::cout << "Январь" << std::endl ;
 			break;
-		case 2:
+		case February:
 			std::cout << "Февраль" << std::endl;
 			break;
-		case 3:
+		case March:
 			std::cout << "Март" << std::endl;
 			break;
-		case 4:
+		case April:
 			std::cout << "Апрель" << std::endl;
 			break;
-		case 5:
+		case May:
 			std::cout << "Май" << std::endl;
 			break;
-		case 6:
+		case June:
 			std::cout << "Июнь" << std::endl;
 			break;
-		case 7:
+		case Jule:
 			std::cout << "Июль" << std::endl;
 			break;
-		case 8:
+		case August:
 			std::cout << "Август" << std::endl;
 			break;
-		case 9:
+		case September:
 			std::cout << "Сентябрь" << std::endl;
 			break;
-		case 10:
+		case October:
 			std::cout << "Октябрь" << std::endl;
 			break;
-		case 11:
+		case November:
 			std::cout << "Ноябрь" << std::endl;
 			break;
-		case 12:
+		case December:
 			std::cout << "Декабрь" << std::endl;
 			break;
 		}
